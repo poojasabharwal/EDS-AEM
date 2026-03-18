@@ -8,6 +8,10 @@
   padding: 40px 24px;
   min-height: 300px;
 }
+
+.hero p {
+    color : #fff
+}
 .hero h1,
 .hero p,
 .hero .button-container{
