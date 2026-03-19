@@ -16,6 +16,7 @@
   --light-color: #EBFEFF;
   --dark-color: #041A28;
   --text-color: #4A5565;
+  --text-color-2: #ffffff;
   --link-color: #F2674A;
   --link-hover-color: #e15c40;
 
@@ -257,4 +258,10 @@ main .section.light{
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+main .section.highlight * {
+    color: var(--text-color-2);
+}
+main .section.highlight .cards > ul > li * {
+    color: var(--text-color);
 }
