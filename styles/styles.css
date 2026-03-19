@@ -13,9 +13,9 @@
 :root {
   /* colors */
   --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
+  --light-color: #EBFEFF;
+  --dark-color: #041A28;
+  --text-color: #4A5565;
   --link-color: #F2674A;
   --link-hover-color: #e15c40;
 
@@ -247,10 +247,13 @@ main > .section:first-of-type {
     padding: 0 32px;
   }
 }
-
-/* section metadata */
-main .section.light,
 main .section.highlight {
+  background-color: var(--dark-color);
+  margin: 0;
+  padding: 40px 0;
+}
+/* section metadata */
+main .section.light{
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
